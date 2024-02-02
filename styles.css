@@ -16,8 +16,8 @@ nav {
   margin-left: 0px;
   background-color: #dadadd;
   width: 103%;
-  /* margin-left: -2.3rem;
-  margin-right: 0rem; */
+  margin-left: -2.3rem;
+  margin-right: 0rem;
   margin-top: -.5rem;
   
 }
@@ -94,24 +94,24 @@ nav {
 
 #hero-shoe1 {
     z-index: 4;
-    width: 20rem;
+    width: 23rem;
     min-width: 5rem;
     z-index: 3;
     position: absolute;
     bottom: 25%; /* Adjusted the bottom value to ensure the image is within the visible area */
     left: 33%; /* Centering the image horizontally */
-    animation: float 3s ease-in-out infinite;
+    animation: float 4s ease-in-out infinite;
 }
 
 #hero-shoe2 {
   z-index: 0;
-  width: 15rem;
+  width: 17rem;
   min-width: 5rem;
   position: absolute;
   bottom: 30%; /* Adjusted the bottom value to ensure the image is within the visible area */
   left: 49%; /* Centering the image horizontally */
   transform: translateX(-50%); /* Adjusted the transform to center the image horizontally */
-  animation: float 4s ease-in-out infinite;
+  animation: float 5s ease-in-out infinite;
 }
 
 /* GLOWING TEXT*/
